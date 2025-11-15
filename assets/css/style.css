@@ -15,10 +15,9 @@
     font-family: Arial, sans-serif;
     color: #333;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
+
 
 header {
   
@@ -31,7 +30,7 @@ header {
     backdrop-filter: blur(30px);
     box-shadow: 0 6px 6px rgba(90, 52, 52, 0.2);
     z-index: 20;
-    position:sticky;
+    position:fixed;
     top: 0;
     border-top: 5px solid #e8491d;
 }
@@ -39,6 +38,10 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+main{
+    padding-top: 70px;
 }
 
 .logo {
@@ -49,6 +52,7 @@ header .container {
     display: flex;
 
 }
+
 
 
 .logo .highlight {
@@ -188,11 +192,12 @@ footer {
   background: #333;
   color: #fff;
   text-align: center;
-  padding: 10px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-top: 20px;
-  border-radius: 7px;
   width: 100%;
-
+  margin-top: auto;
+  height: 50px;
 }
 
 
